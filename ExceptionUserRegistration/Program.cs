@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
 
-            Console.WriteLine("choose a option 1.valid \t 2. lastname \t 3.Email");
+            Console.WriteLine("choose a option 1.valid \t 2. lastname \t 3.Email \t 4.mobilenumber");
             Console.WriteLine("UC1Valid first name");
             Console.WriteLine("UC2 Valid last name");
             Console.WriteLine("UC3 Email");
@@ -21,6 +21,9 @@
                     break;
                 case 3:
                     UC3Email.ValidEmail();
+                    break;
+                case 4:
+                    UC4MobileNumber.ValidMobileNumber();
                     break;
                 default:
                     Console.WriteLine("enter wrong choice");
