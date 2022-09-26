@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ExceptionUserRegistration
 {
-    public class UC1FirstName
+    public class UC1FirstNameValid
     {
         public static void validFirstName()
         {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ExceptionUserRegistration
 {
-    public class UC2LastName
+    public class UC2LastNameValid
     {
         public static void ValidLastName()
         {
