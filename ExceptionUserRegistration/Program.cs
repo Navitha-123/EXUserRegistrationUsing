@@ -5,12 +5,13 @@
         static void Main(string[] args)
         {
 
-            Console.WriteLine("choose a option 1.valid \t 2. lastname \t 3.Email \t 4.mobilenumber \t 5.rule1");
+            Console.WriteLine("choose a option 1.valid \t 2. lastname \t 3.Email \t 4.mobilenumber \t 5.rule1 \t 6.rule2");
             Console.WriteLine("UC1Valid first name");
             Console.WriteLine("UC2 Valid last name");
             Console.WriteLine("UC3 Email");
             Console.WriteLine("UC4 mobile number");
             Console.WriteLine("UC5 rule1 password");
+            Console.WriteLine("UC6 rule2 password");
 
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
@@ -29,6 +30,9 @@
                     break;
                 case 5:
                     UC5PasswordRule1.ValidPasswordRule1();
+                    break;
+                case 6:
+                    UC6PasswordRule2.ValidPasswordRule2();
                     break;
                 default:
                     Console.WriteLine("enter wrong choice");
