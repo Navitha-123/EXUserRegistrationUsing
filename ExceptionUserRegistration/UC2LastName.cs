@@ -7,22 +7,22 @@ using System.Threading.Tasks;
 
 namespace ExceptionUserRegistration
 {
-    public class UC1FirstName
+    public class UC2LastName
     {
-        public static void validFirstName()
+        public static void ValidLastName()
         {
             try
             {
-                Console.WriteLine("Enter first name");
-                string firstName = Console.ReadLine();
+                Console.WriteLine("Enter last name");
+                string lastname = Console.ReadLine();
                 string pattern = "^[A-Z]{1}[a-z]{2,}$";
-                if (Regex.IsMatch(firstName, pattern))
+                if (Regex.IsMatch(lastname, pattern))
                 {
-                    Console.WriteLine("FirstName:" + firstName);
+                    Console.WriteLine("FirstName:" + lastname);
                 }
                 else
                 {
-                    throw (new Exception("Firstname should be first letter capital and more than 2 cherecters"));
+                    throw (new Exception("last name  should be last  letter capital and more than 2 cherecters and numeric"));
 
                 }
             }
