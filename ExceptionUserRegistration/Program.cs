@@ -16,7 +16,7 @@
                     UC1FirstNameValid.validFirstName();
                     break;
                 case 2:
-                    UC2LastName.ValidLastName();
+                    UC2LastNameValid.ValidLastName();
                     break;
                 default:
                     Console.WriteLine("enter wrong choice");
