@@ -13,7 +13,7 @@
             switch (option)
             {
                 case 1:
-                    UC1FirstName.validFirstName();
+                    UC1FirstNameValid.validFirstName();
                     break;
                 case 2:
                     UC2LastName.ValidLastName();
